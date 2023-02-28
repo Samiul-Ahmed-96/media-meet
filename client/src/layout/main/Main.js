@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom'
 import Header from '../../components/header/Header'
 import Leftbar from '../../components/leftbar/Leftbar'
 import Rightbar from '../../components/rightbar/Rightbar'
+import './main.scss'
 
 const Main = () => {
   return (
