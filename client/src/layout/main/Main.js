@@ -11,7 +11,9 @@ const Main = () => {
         <Header/>
         <div className="wrapper">
             <Leftbar/>
+            <div className='outlet-area'>
             <Outlet/>
+            </div>
             <Rightbar/>
         </div>
     </div>
